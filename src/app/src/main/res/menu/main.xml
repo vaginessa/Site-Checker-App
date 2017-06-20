@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:background="@android:color/black"
+    android:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    <!--<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" /> -->
+
+
+    <!-- alarmNotification -->
+    <item android:id="@+id/action_0"
+        android:title="Reset all timers"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_1"
+        android:title="Check every minute"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_5"
+        android:title="Check every 5 minutes"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_15"
+        android:title="Check every 15 minutes"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_30"
+        android:title="Check every 30 minutes"
+        app:showAsAction="never" />
+
+
+</menu>
